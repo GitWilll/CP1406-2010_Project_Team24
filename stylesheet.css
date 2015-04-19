@@ -3,12 +3,21 @@
 /* The below code is for the image slider on the homepage */
 
 body {
-    background-color: #F7FE2E;
+    background-color: #66CCFF;
+    font-family: sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
 }
 
 #homepage {
     width: 100%;
-    
+    margin: 0;
 }
 
 #homepage img {
@@ -18,26 +27,72 @@ body {
 }
 
 #homepage li {
+    border: solid;
+    border-color: black; 
     list-style: none;
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    border: 3px, solid, white;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
-#homepage li a {
-    text-decoration: none;
-    
+#homepage a:link {
+    text-decoration: none; 
+    color: black;
+    font-family: sans-serif; 
+}
+
+#hompage a:visited {
+    text-decoration: none; 
+    color: gray;
+    font-family: sans-serif; 
+}
+
+#homepage a:hover {
+    text-decoration: none; 
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#links {
+    align-content: center;
+    float: left;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    padding-left: 3%;    
+}
+
+#links img {
+    width: 110px;
+}
+
+#banner{
+    width: 40%;
+    margin: 0px;
+    padding-bottom: 40px;
+    float: left;
+    clear: both;
+}
+
+#information {
+    padding-right: 20px;  
+    padding-left: 20px;
 }
 
 #slider-wrapper{
-			width: 940px;
-			height: 310px;
+			width: 500px;
+			height: 167px;
 			margin: 50px auto;
 			position: relative;
 			margin-bottom: 0px;
 			background: rgba(0,0,0,0.5);
 			overflow: hidden;
+            margin: none;
+            padding: 0px;
 		}
 		
 				#s1{
@@ -95,8 +150,8 @@ body {
 				#s1:hover, #s2:hover, #s3:hover, #s4:hover{ opacity: 1;}
 				
 			.inner-wrapper{
-				width: 940px;
-				height: 310px;
+				width: 500px;
+				height: 167px;
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -125,7 +180,8 @@ body {
 				z-index: 1;
 				-webkit-transition: all 0.3s ease-in-out;
 				-moz-transition: all 0.3s ease-in-out;
-				-o-transition: all 0.3s ease-in-out;
+				
+                -o-transition: all 0.3s ease-in-out;
 				transition: all 0.3s ease-in-out;
 			}
 			
@@ -135,5 +191,22 @@ body {
 				}
 
 /*End of the coding for the image slider */
+
+#footer {
+    background-color: #0099CC;
+    height: 30px;
+    padding-left: 8%;
+}
+
+#footer li {
+    align-content: center;
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5px;
+    list-style: none;
+    list-style-type: none;   
+    color: yellow;
+}
 
 
