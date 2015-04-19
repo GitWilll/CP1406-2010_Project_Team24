@@ -9,6 +9,14 @@ body {
     text-align: justify;
 }
 
+body h1{
+    font-size: 17pt;
+    font-style: normal;
+    padding-left: 20px;
+    margin: 0px;
+    align-content: center;
+}
+
 body a {
     text-decoration: none;
     color: black;
@@ -67,15 +75,17 @@ body a {
 }
 
 #links img {
-    width: 110px;
+    width: 110px;   
 }
 
 #banner{
+    justify-content: center;
     width: 40%;
     margin: 0px;
-    padding-bottom: 40px;
+    padding: 0px;
     float: left;
     clear: both;
+    
 }
 
 #information {
@@ -199,6 +209,7 @@ body a {
 }
 
 #footer li {
+    font-style: normal;
     align-content: center;
     display: inline-block;
     padding-right: 5%;
