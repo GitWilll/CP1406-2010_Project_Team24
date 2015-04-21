@@ -23,6 +23,25 @@ body a {
     font-style: italic;
 }
 
+h2 {
+    font-size: 18pt;
+    text-align: left;
+}
+
+h3 {
+    font-size: 18pt;
+    text-align: left;
+}
+
+h4 {
+    font-size: 18pt;
+    text-align: left;
+}
+
+h1{
+    font-size: 20pt;
+}
+
 #homepage {
     width: 100%;
     margin: 0;
@@ -200,24 +219,169 @@ body a {
 					float: left;
 				}
 
+
 /*End of the coding for the image slider */
 
-#footer {
-    background-color: #0099CC;
-    height: 30px;
-    padding-left: 8%;
+<<<<<<< HEAD
+/* css coding for all basic pages */
+
+#wrapper {
+	
 }
 
-#footer li {
-    font-style: normal;
+#Pbanner {
+	height: 120px;
+	background-color:#C4C4C4
+}
+
+#Pbanner img {
+    height: 120px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+#Pbanner h1 {
+    padding-top: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 28pt;
+}
+
+#nav {
+	height: 25px;
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5px;
+}
+
+#content {
+    padding: 20px;
+	height: auto;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	margin-top: 5px;
+	text-align:center;	
+}
+
+#timeline {
+    padding-top: 40%;
+    width: 100%;   
+}
+
+
+#timeline table {
+    border: solid;
+    padding: 10px;
+    text-align: left    
+}
+
+#timeline table td {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+#column1 {
+    width: 50%;
+    float: left;
+}
+
+#column1 img {
     align-content: center;
-    display: inline-block;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 5px;
-    list-style: none;
-    list-style-type: none;   
-    color: yellow;
+    padding-right: 15%;
+    padding-top: 5%
+}
+
+
+#column2 {
+    width: 50%;
+    float: left;  
+}
+
+form {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+#column1 td {
+    text-align: left;
+}
+
+#nav ul {
+	margin: 2px;
+	align-content:center;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#nav ul li{
+	float:left;
+	list-style-type:none;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #363636;
+	display: block;
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	text-align: center;
+	border-left: thin solid #3E9CFF;
+}
+
+#nav ul li a:hover {
+	background-color: #555555;
+}
+
+#footer {
+	height: 25px;
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5px;
+	
+}
+	
+#footer ul {
+	margin: 2px;
+	align-content:center;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#footer ul li{
+	float:left;
+	list-style-type:none;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#footer ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #363636;
+	display: block;
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+	text-align: center;
+	border-left: thin solid #3E9CFF;
+}
+
+#footer ul li a:hover {
+	background-color: #555555;
 }
 
 
