@@ -267,6 +267,15 @@ h1{
 	text-align:center;	
 }
 
+#imgcolumn1 {
+    width: 100%;
+}
+
+#imgcolumn1 img {
+    width: 25%;
+    padding: 35px;
+}
+
 #timeline {
     padding-top: 40%;
     width: 100%;   
