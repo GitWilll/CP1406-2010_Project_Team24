@@ -355,8 +355,8 @@ form {
 #footer {
 	height: 25px;
 	width:1300px;
-	margin-left:auto;
-	margin-right:auto;
+    position: absolute;
+    left: 20px;
 	margin-top: 5px;
 	
 }
