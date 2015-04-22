@@ -43,13 +43,17 @@ h1{
 }
 
 #mainHeader {
-    width: 100%;
+    position: relative;
+    margin-left: 4%;
 }
 
 #mainHeader img {
-    width: 90%;
-    padding-left: 5%;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 #links {
     align-content: center;
     float: left;
@@ -111,9 +115,9 @@ h1{
 }
 
 #navleft {
-    position: absolute;
-    top: 19%;
-    left: 11%;
+    position: relative;
+    top: -155px;
+    left: 75px;
 }
 
 #navleft li {
@@ -124,17 +128,19 @@ h1{
 #navleft li a {
     font-family: "Courier New", Courier, monospace;
     font-size: 14pt;
+    
 }
 
 #navright {
-    position: absolute;
-    top: 19%;
-    right: 13%;
+    position: relative;
+    top: -240px;
+    left: 710px;
 }
 
 #navright li {
     display: inline-block;
     padding: 25px;
+
 }
 
 #navright li a {
@@ -143,13 +149,15 @@ h1{
 }
 
 #content {
+    position: absolute;
+    top: 300px;
     padding: 20px;
+    padding-bottom: 50px;
 	height: auto;
 	width: 95%;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#fffff0;
-	margin-top: 5px;
 	text-align:center;	
     margin-bottom: 10px;
 }
@@ -209,6 +217,9 @@ form {
 
 
 #footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
     background-color: #808080;
     width: 100%;
 }
