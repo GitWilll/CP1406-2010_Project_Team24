@@ -110,10 +110,6 @@ h1{
 
 /* css coding for all basic pages */
 
-#wrapper {
-	
-}
-
 #navleft {
     position: relative;
     top: -155px;
@@ -123,30 +119,28 @@ h1{
 #navleft li {
     display: inline-block;
     padding: 25px;
-}
-
-#navleft li a {
     font-family: "Courier New", Courier, monospace;
     font-size: 14pt;
-    
 }
+			
 
 #navright {
     position: relative;
-    top: -240px;
-    left: 710px;
+    top: -242px;
+    left: 700px;
 }
 
 #navright li {
     display: inline-block;
     padding: 25px;
-
-}
-
-#navright li a {
     font-family: "Courier New", Courier, monospace;
     font-size: 14pt;
 }
+
+#navright ul li ul {
+    display: block;
+}
+
 
 #content {
     position: absolute;
