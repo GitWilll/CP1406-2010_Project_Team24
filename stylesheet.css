@@ -10,7 +10,8 @@ body {
 }
 
 body h1{
-    font-size: 17pt;
+    font-size: 20pt;
+    padding-bottom: 20px;
     font-style: normal;
     padding-left: 20px;
     margin: 0px;
@@ -106,12 +107,10 @@ h1{
 #navright {
     position: absolute;
     top: 55%;
-    left: 55%;
-    
+    left: 55%;   
 }
 
-#navigation ul
-{
+#navigation ul {
 	list-style:none;
 	position:relative;
 	float:left;
@@ -119,8 +118,7 @@ h1{
 	padding:0
 }
 
-#navigation ul a
-{
+#navigation ul a {
 	display:block;
 	color:#333;
 	text-decoration:none;
@@ -130,8 +128,7 @@ h1{
 	font-family:"Courier New", sans-serif, monospace;
 }
 
-#navigation ul li
-{
+#navigation ul li {
 	position:relative;
 	float:left;
 	margin:0;
@@ -189,16 +186,74 @@ h1{
  padding: 1%;
 }
 
-#column1 {
+#information {
+    text-align: justify;
+    float: left;
     width: 50%;
+}
+
+#information img {
+    align-content: center;
+    padding-left: 27%;
+}
+
+#imgs {
+    width: 50%;
+    float: left;
+    padding-top: 250px;
+}
+
+#imgs figcaption {
+    color: gray;
+    padding-bottom: 200px;
+}
+
+#column1 {
+    text-align: justify;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    width: 45%;
     float: left;
 }
 
 #column2 {
-    width: 50%;
+    text-align: justify;
+    width: 45%;
     float: left;
 }
 
+#imgcolumn1 {
+    width: 48%;
+    float: left;
+    padding-right: 2%;
+}
+
+#imgcolumn1 figcaption {
+    width: 400px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-bottom: 40px;    
+}
+
+#imgcolumn1 figcaption strong {
+   font-size: 20pt;
+}
+
+#imgcolumn2 {
+    width: 48%;
+    float: left;
+}
+
+#imgcolumn2 figcaption {
+    width: 400px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-bottom: 40px;    
+}
+
+#imgcolumn2 figcaption strong {
+   font-size: 20pt;
+}
 
 #timeline {
     padding-top: 30%;
