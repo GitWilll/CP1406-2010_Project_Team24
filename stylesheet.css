@@ -69,14 +69,13 @@ h1{
 }
 
 .image-slider-wrapper{
-    width: 860px;
+    width: 880px;
 	overflow: hidden;
 }
 #image_slider{
 	position: relative;
 	overflow: hidden;
 	height: 280px;
-
 	padding:0;
 	left:0;
 }
@@ -186,6 +185,10 @@ h1{
  padding: 1%;
 }
 
+#content a {
+    text-decoration: underline;
+}
+
 #information {
     text-align: justify;
     float: left;
@@ -253,6 +256,11 @@ h1{
 
 #imgcolumn2 figcaption strong {
    font-size: 20pt;
+}
+
+#info {
+    width: 70%;
+    padding-left: 15%;
 }
 
 #timeline {
