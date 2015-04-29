@@ -1,0 +1,29 @@
+<?php
+	include("artistDBConnection.php");
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Version 0.01 of this page is NOT working, still fiddling. !-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+	<h1>Delete Artist.</h1>
+	<!-- Form to collect user input on which artist to delete !-->
+    <form method="post">
+    Artist to Delete:<br />
+    <input type="text" name="artistToDelete" />
+    </form>
+	<?php
+    	// Uses input from form to select which record to delete.
+    	$artistToDelete = $_POST["artistToDelete"];
+        dbh -> exec('DELETE FROM artistTable WHERE artistName = $artistToDelete"');
+	?>
+</body>
+</html>
