@@ -118,13 +118,15 @@ h1{
 }
 
 #navigation ul a {
-	display:block;
-	color:#333;
-	text-decoration:none;
-	font-size:14pt;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"Courier New", sans-serif, monospace;
+	display: block;
+	color: #333;
+	text-decoration: none;
+	font-size: 14pt;
+	line-height: 32px;
+	padding: 0 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	word-spacing: 20px;
+	
 }
 
 #navigation ul li {
@@ -327,5 +329,3 @@ form {
 #footer ul li a:hover {
 	background-color: #555555;
 }
-
-
