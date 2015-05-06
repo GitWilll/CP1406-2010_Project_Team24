@@ -39,6 +39,10 @@ h4 {
     text-align: left;
 }
 
+h5 {
+    font-size: 18pt;
+}
+
 h1{
     font-size: 20pt;
 }
@@ -119,13 +123,15 @@ h1{
 
 #navigation ul a {
 	display: block;
+    width: 120px;
 	color: #333;
 	text-decoration: none;
-	font-size: 14pt;
+	font-size: 12pt;
 	line-height: 32px;
-	padding: 0 15px;
+	padding: 10px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	word-spacing: 20px;
+    text-align: center;
 	
 }
 
@@ -189,6 +195,7 @@ h1{
 
 #content a {
     text-decoration: underline;
+    color: orange;
 }
 
 #information {
@@ -263,6 +270,14 @@ h1{
 #info {
     width: 70%;
     padding-left: 15%;
+}
+
+#info h4{
+    text-align: center;
+}
+
+#info h5{
+    text-align: center;
 }
 
 #timeline {
