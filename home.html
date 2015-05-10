@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <title>Home - TCMC</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
-<script src="homescript.js"></script>
 </head>
     
 <body>
@@ -48,22 +47,78 @@
     <p>Have  a question?</p>
     <a href="about.html"><img src="Images/contactbutton.png" alt="Contact the TCMC!"></a>
 <h2>Upcoming Townsville Community Centre Events:</h2>
-<div id="banner">
-<div class="container">
-			<div class="image-slider-wrapper">
-				<ul id="image_slider">
-					<li><img src="Images/AvivaBanner.jpg"></li>
-					<li><img src="Images/HarboursideDuoBanner.jpg"></li>
-					<li><img src="Images/TownsvilleConcertBandBanner.jpg"></li>
-					<li><img src="Images/AvivaBanner.jpg"></li>
-					<li><img src="Images/HarboursideDuoBanner.jpg"></li>
-					<li><img src="Images/TownsvilleConcertBandBanner.jpg"></li>
-				</ul>			
-				<div class="pager">
-				</div>
-			</div>
+    
+<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img src="Images/harboursideTalent.png" />
+        <div class="caption">
+            <figcaption><p>Harbourside Duo presents Dream Serenade<br>
+            Music of Debussy, Ravel, Faure,<br>
+                Sibelius and others.</p>
+            <p>2pm Sunday 17 May at Townsville Civic Theatre</p>
+            </figcaption>
+            </div>
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
 		</div>
-    </div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="Images/avivaTalent.png" />
+            <div class="caption">
+            <figcaption><p>Aviva Quartet presents Aviva and friends go Abroad<br>
+            Join us for a toe' tappin'<br>
+                Soul searchin' journey!</p>
+            <p>2pm Sunday 17 June at Townsville Civic Theatre</p>
+            </figcaption>
+            </div>
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="Images/concertbandTalent.png" />
+            <div class="caption">
+            <figcaption><p>Townsville Concert Band<br>
+                Performing</p>
+            <p>2pm Sunday 28 June at Townsville Civic Theatre</p>
+            </figcaption>
+            </div>
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+   
+    <li class="slide-container">
+        <div class="slide">
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+    </li>
+</ul>   
+
 <!--End of slider Code-->
 
 
@@ -101,6 +156,6 @@
 </ul>    
 </div>    
 <!--End footer division-->    
-    
+</div>   
 </body>
 </html>
