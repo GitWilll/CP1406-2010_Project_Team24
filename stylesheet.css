@@ -189,21 +189,18 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 /* css coding for all basic pages */
 
-#navigation {
-    padding: 5px;
-    
-}
+
 #navleft {
     position: absolute;
-    top: 55%;
-    left: 13%;
+    top: 52%;
+    left: 10%;
     
 }
 
 #navright {
     position: absolute;
-    top: 55%;
-    left: 55%;   
+    top: 52%;
+    left: 54.5%;   
 }
 
 #navigation ul {
@@ -392,7 +389,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 form {
-    text-align: left;
     line-height: 1.5em;
 }
 
