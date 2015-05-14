@@ -9,7 +9,7 @@ body {
     text-align: justify;
 }
 
-body h1{
+body h1 {
     font-size: 20pt;
     padding-bottom: 20px;
     font-style: normal;
@@ -43,7 +43,7 @@ h5 {
     font-size: 18pt;
 }
 
-h1{
+h1 {
     font-size: 20pt;
 }
 
@@ -95,7 +95,6 @@ html, body { url("http://codepen.io/images/classy_fabric.png"); }
     position: absolute;
 
     transform: scale(0);
-
     transition: all .7s ease-in-out;
 }
 
@@ -109,13 +108,12 @@ html, body { url("http://codepen.io/images/classy_fabric.png"); }
     height: 100%;
     display: none;
     position: absolute;
-
-	  opacity: 0;
+    
+    opacity: 0;
     z-index: 9;
     cursor: pointer;
-
     transition: opacity .2s;
-
+    
     color: #FFF;
     font-size: 156pt;
     text-align: center;
@@ -133,9 +131,7 @@ html, body { url("http://codepen.io/images/classy_fabric.png"); }
 
 input:checked + .slide-container  .slide {
     opacity: 1;
-
     transform: scale(1);
-
     transition: opacity 1s ease-in-out;
 }
 
@@ -176,9 +172,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 /*End of the coding for the image slider */
 
-
 /* css coding for all basic pages */
-
 
 .current {
     border-bottom: 3px dashed orange;
@@ -368,7 +362,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     width: 100%;   
 }
 
-
 #timeline table {
     border: solid;
     padding: 10px;
@@ -380,15 +373,14 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     text-align: justify;
 }
 
-
 form {
-    line-height: 1.5em;
+    text-align: left;
+    line-height: 2.5em;
 }
 
 #column1 td {
     text-align: left;
 }
-
 
 #footer {
     position: fixed;
