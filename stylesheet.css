@@ -24,6 +24,10 @@ body a {
     font-style: italic;
 }
 
+h1 {
+    font-size: 20pt;
+}
+
 h2 {
     font-size: 18pt;
     text-align: left;
@@ -41,10 +45,6 @@ h4 {
 
 h5 {
     font-size: 18pt;
-}
-
-h1 {
-    font-size: 20pt;
 }
 
 #banner {
@@ -246,7 +246,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	left:100%;
 }
 
-#navigation ul li:hover > ul{
+#navigation ul li:hover > ul {
 	display:block
 }
 
@@ -262,8 +262,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background-color:#fffff0;
 	text-align:center;
     margin-bottom: 10px;
-    margin-right: 10px;
-    
+    margin-right: 10px; 
 }
 
 #content img {
@@ -376,6 +375,22 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 form {
     text-align: left;
     line-height: 2.5em;
+}
+
+fieldset {
+/*	margin-left: auto;*/
+	margin-right: 20px;
+}
+
+fieldset legend {
+    font-size: 20pt;
+    font-style: normal;
+/*    width: 30em;*/
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+/*    margin: 0px;*/
+    align-content: center;
 }
 
 #column1 td {
