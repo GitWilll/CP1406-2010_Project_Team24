@@ -58,7 +58,7 @@ h5 {
 
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
-html, body { url("http://codepen.io/images/classy_fabric.png"); }
+html, body { url(http://codepen.io/images/classy_fabric.png); }
 
 .slides {
     
@@ -219,7 +219,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 
 #navigation ul li:hover {
-    color: orange;
+    background-color:#D9D9D9;
 }
 
 #navigation ul ul {
@@ -369,7 +369,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #timeline table td {
     padding: 10px;
-    text-align: justify;
 }
 
 form {
