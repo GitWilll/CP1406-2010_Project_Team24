@@ -24,27 +24,42 @@ body a {
     font-style: italic;
 }
 
+h1 span {
+    font-family: 'Amatic SC', cursive;
+    font-size: 64pt;
+    color: #fffff0;
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    
+}
+
 h1 {
-    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40pt;
 }
 
 h2 {
-    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25pt;
     text-align: left;
 }
 
 h3 {
-    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25pt;
     text-align: left;
 }
 
 h4 {
-    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25pt;
     text-align: left;
 }
 
 h5 {
-    font-size: 18pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25pt;
 }
 
 #banner {
@@ -179,6 +194,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #navigation {
+    font-family: 'Amatic SC', cursive;
     background-color: #FFF5F5;
     height: 56px;
     width: 100%;
@@ -189,22 +205,25 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #navigation ul {
+    align-content: center;
+    text-align: center;
 	list-style:none;
 	position:relative;
 	float:left;
 	margin:0;
-	padding:0
+	padding-left: 22%;
 }
 
 #navigation ul a {
+    align-content: center;
 	display: block;
-    width: 120px;
+    width: 125px;
 	color: #333;
 	text-decoration: none;
-	font-size: 14pt;
+	font-size: 20pt;
 	line-height: 32px;
 	padding: 10px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: 'Amatic SC', cursive;
 	word-spacing: 2px;
     text-align: center;
 	
@@ -251,10 +270,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #content {
-	margin-left:100px;
-	margin-right:100px;
+    margin-left: 1%;
+	width: 97%;
     position: absolute;
-    top: 100px;
+    top: 300px;
     padding-top: 20px;
     padding-bottom: 50px;
 	height: auto;
@@ -275,7 +294,8 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 #information {
     text-align: justify;
     float: left;
-    width: 50%;
+    width: 48%;
+    padding-left: 20px;
 }
 
 #information img {
@@ -292,6 +312,11 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 #imgs figcaption {
     color: gray;
     padding-bottom: 200px;
+}
+
+#column1 img {
+    padding-left: 20%;
+    align-content: center;
 }
 
 #column1 {
@@ -375,7 +400,7 @@ form {
 }
 
 fieldset {
-/*	margin-left: auto;*/
+	margin-left: 20px;
 	margin-right: 20px;
 }
 
@@ -413,8 +438,8 @@ fieldset legend {
 }
 
 #footer ul li a {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 12pt;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20pt;
 	color: #FFFFFF;
 	text-decoration: none;
 	display: block;
