@@ -43,23 +43,40 @@ h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 25pt;
     text-align: left;
+	padding-left: 10px;
 }
 
 h3 {
     font-family: 'Amatic SC', cursive;
     font-size: 25pt;
     text-align: left;
+    padding-left: 10px;
 }
 
 h4 {
     font-family: 'Amatic SC', cursive;
     font-size: 25pt;
     text-align: left;
+    padding-left: 10px;
 }
 
 h5 {
     font-family: 'Amatic SC', cursive;
     font-size: 25pt;
+    text-align: left;
+    padding-left: 10px;
+}
+
+p {
+    padding: 20px;
+}
+
+.perform p {
+    text-align: left;
+}
+
+.perform li {
+    text-align: left;
 }
 
 #banner {
@@ -332,39 +349,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     float: left;
 }
 
-#imgcolumn1 {
-    width: 48%;
-    float: left;
-    padding-right: 2%;
-}
-
-#imgcolumn1 figcaption {
-    width: 400px;
-    text-align: justify;
-    padding-left: 20%;
-    padding-bottom: 40px;    
-}
-
-#imgcolumn1 figcaption strong {
-   font-size: 20pt;
-}
-
-#imgcolumn2 {
-    width: 48%;
-    float: left;
-}
-
-#imgcolumn2 figcaption {
-    width: 400px;
-    text-align: justify;
-    padding-left: 20%;
-    padding-bottom: 40px;    
-}
-
-#imgcolumn2 figcaption strong {
-   font-size: 20pt;
-}
-
 #info {
     width: 70%;
     padding-left: 15%;
@@ -455,9 +439,103 @@ fieldset legend {
 	background-color: #555555;
 }
 
-/*Code for responsive Web design structures */
+/*CODE FOR PAGES WITH TWO COLUMN LAYOUT*/
 
-@media (max-width: 600px) {
+.artist {
+    align-items: center;
+    align-content: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px #888888;        
+}
+
+.artist img {
+    width: 98%;
+}
+
+.post {
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;     
+    border: 1px solid gray;
+}
+
+.post p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.span_1_of_2 p {
+    text-align: justify;
+}
+
+.span_1_of_2 table td {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.span_1_of_2 form {
+    padding-left: 20px;
+}
+
+.span_1_of_2 span img {
+    width: auto;
+}
+
+
+.span_1_of_2 strong{
+    font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+
+@media only screen and (max-width: 800px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+/*Code for responsive Web design Navigation*/
+
+@media (max-width: 800px) {
  #mainHeader h1 span {
     font-family: 'Amatic SC', cursive;
     font-size: 20pt;
@@ -516,57 +594,6 @@ fieldset legend {
 
 .current {
     border: none;
-}
-
-#column1 img {
-    width: 300px;
-    padding-bottom: 500px
-}
-
-#column2 {
-    position: absolute;
-    top: 350px;
-    left: 15%;
-}
-    
-#column2 img {
-    padding-bottom: 250px;
-}
-    
-#imgcolumn1 {
-    margin: 0px;
-}
-    
-#imgcolumn1 img {
-    padding-left: 10%;
-}
-    
-#imgcolumn1 figcaption {
-    padding-left: 10%;
-}
-    
-#imgcolumn2 img { 
-    padding-left: -10%;
-}
-    
-#imgcolumn2 figcaption {
-    padding-left: 10%;
-}
-
-    
-#imgcolumn2 {
-    width: 100%;
-    margin: 0px;
-    float: none;
-    clear: both;
-    position: absolute;
-    top: 3000px;
-}
-    
-#content:after {
-  content:"";
-  display:table;
-  clear:both;
 }
     
 #footer {
