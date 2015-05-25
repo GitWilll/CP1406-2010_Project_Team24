@@ -79,10 +79,6 @@ p {
     text-align: left;
 }
 
-#banner {
-    padding-left: 17.5%;
-}
-
 /*Beginning of code for image slider*/
 .caption {
     height: 200px;
@@ -210,9 +206,13 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     border-bottom: 3px dashed orange;
 }
 
+#mainHeader {
+    padding-bottom: 5%;
+}
+
 #navigation {
     font-family: 'Amatic SC', cursive;
-    background-color: #FFF5F5;
+    background-color: #F6F1ED;
     width: 100%;
     position: absolute;
     left: 0px;
@@ -263,7 +263,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	position:absolute;
 	top:100%;
 	left:0;
-	background:#FFF5F5;
+	background:#F6F1ED;
 	padding:0;
 }
 
@@ -273,7 +273,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 #navigation ul ul a {
 	line-height:120%;
-	padding:10px 15px;
 }
 
 #navigation ul ul ul {
@@ -289,7 +288,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     margin-left: 1%;
 	width: 97%;
     position: absolute;
-    top: 300px;
     padding-top: 20px;
     padding-bottom: 50px;
 	height: auto;
@@ -314,6 +312,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     padding-left: 20px;
 }
 
+#timeline table td {
+    vertical-align: text-top;
+}
+
 #information img {
     align-content: center;
     padding-left: 27%;
@@ -328,25 +330,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 #imgs figcaption {
     color: gray;
     padding-bottom: 200px;
-}
-
-#column1 img {
-    padding-left: 20%;
-    align-content: center;
-}
-
-#column1 {
-    text-align: justify;
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-    width: 45%;
-    float: left;
-}
-
-#column2 {
-    text-align: justify;
-    width: 45%;
-    float: left;
 }
 
 #info {
@@ -389,17 +372,12 @@ fieldset {
 
 fieldset legend {
     font-size: 20pt;
+    font-family: 'Amatic SC', cursive;
     font-style: normal;
-/*    width: 30em;*/
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-/*    margin: 0px;*/
     align-content: center;
-}
-
-#column1 td {
-    text-align: left;
 }
 
 #footer {
@@ -521,6 +499,10 @@ fieldset legend {
 	width: 49.2%;
 }
 
+.span_1_of_2 a strong {
+    font-size: 16pt;
+}
+
 /*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
 
 @media only screen and (max-width: 800px) {
@@ -534,95 +516,88 @@ fieldset legend {
 }
 
 /*Code for responsive Web design Navigation*/
+@media (max-width: 	1212px) {
 
-@media (max-width: 800px) {
- #mainHeader h1 span {
-    font-family: 'Amatic SC', cursive;
-    font-size: 20pt;
-    color: #fffff0;
-    position: absolute;
-    top: 200px;
-    left: 25%;}
+    #mainHeader {
+    padding-bottom: 7%;
+    }
     
-#content{
-    margin-left: 1%;
-	width: 97%;
-    position: absolute;
-    top: 540px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-	height: auto;
-	background-color:#fffff0;
-	text-align:center;
-    margin-bottom: 10px;  
-}
-#navigation {
-    position: absolute;
-    top: 250px;
-    background-color: #FFF5F5;
-    width: 100%;
+    #mainHeader h1 span {
+        font-family: 'Amatic SC', cursive;
+        font-size: 40pt;
+    }
 }
 
-#navigation li {
-    display: inline-block;
-}
-	
-#navigation ul {
-	margin: 2px;
-	align-content:center;
-	text-align:center;	
+@media (max-width: 1118px) {
+
+    #mainHeader {
+        padding-bottom: 14%;
+    }
+
 }
 
-#navigation ul li a {
-    font-family: 'Amatic SC', cursive;
-    font-size: 20pt;
-	color: #333;
-	text-decoration: none;
-	display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-	height: 25px;
-	line-height: 25px;
-	text-align: center;
-}
+@media (max-width: 	856px) {
 
-#navigation ul li a:hover {
-	background-color: #D9D9D9;
-}
-
-.current {
+    #mainHeader h1 span {
+        font-size: 30pt;
+    }
+    
+    #mainHeader {
+        padding-bottom: 18%;
+    }
+    
+    .current {
     border: none;
 }
     
-#footer {
-    visibility: hidden;
-} 
-    .images {
-    
-    }
-    
-    .info {
-    padding-top: 220px;
-    }
-    
-#post2 {
-    padding-top: 400px;
 }
-    .contact {
-    width: 100%;
+
+@media (max-width: 	743px) {
+
+    #mainHeader {
+        padding-bottom: 25%
     }
     
-    .email {
-    width: 100%;
+    .current {
+    border: none;
     }
     
-#timeline {
-    padding-top: 580px;
+    #footer {
+        visibility: hidden;
+    }
 }
+
+@media (max-width: 	725px) {
+
+    #mainHeader h1 span {
+        position: absolute;
+        top: 230px;
+        left: 10px;
+    }
     
-#column1 iframe {
-    visibility: hidden;
-}    
+    #mainHeader {
+        padding-bottom: 30%;
+    }
+    
+    #navigation {
+        position: absolute;
+        top: 280px;
+    }
+}
+
+@media (max-width: 	558px) {
+    #mainHeader {
+        padding-bottom: 43%;
+    }
+}
+
+@media (max-width: 530px) {
+    #mainHeader {
+        padding-bottom: 57%;
+    }
+    
+    #content {
+        margin-left: -2px;
+    }
+
 }
